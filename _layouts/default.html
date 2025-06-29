@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% seo %}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,700|Fira+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <link rel="icon" href="{{ "/assets/favicon.ico" | relative_url }}">
+  {% feed_meta %}
+</head>
+<body>
+  <header>
+    <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+    <p>{{ site.description }}</p>
+    <nav>
+      <a href="{{ "/" | relative_url }}">Home</a>
+      <a href="{{ "/about" | relative_url }}">About</a>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <small>
+      &copy; {{ site.time | date: "%Y" }} {{ site.author }} &mdash; Powered by <a href="https://pages.github.com/">GitHub Pages</a>
+    </small>
+  </footer>
+</body>
+</html>
