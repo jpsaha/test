@@ -11,7 +11,7 @@ There are infinitely many primes.
 " %}
 
 {% include definition.html content="
-A positive integer $p > 1$ is called *prime* if its only positive divisors are $1$ and $p$.
+A positive integer $p > 1$ is called *prime* if its only positive divisors are $1$ and $p$. a
 " %}
 
 {% include proof.html content="
