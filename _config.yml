@@ -1,0 +1,19 @@
+title: "Elegant Math Theme"
+description: "A minimal, elegant, mobile-friendly Jekyll theme with math blocks"
+baseurl: "/test"
+url: "https://jpsaha.github.io"
+author: "Your Name"
+permalink: pretty
+theme: null
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+markdown: kramdown
+kramdown:
+  math_engine: katex
